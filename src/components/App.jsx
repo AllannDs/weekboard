@@ -78,12 +78,12 @@ function App() {
                                 </div>
 
                                 <div id="passwordLogin">
-                                    <div><label>Senha</label>
+                                    <div><label>Password</label>
                                         <input type="password" name="passwordLogin" id="passwordLogin" placeholder="********" required />
                                     </div>
                                 </div>
 
-                                <button type="submit">Entrar</button>
+                                <button type="submit">Sign In</button>
                                 <button type="submit" onClick={() => setViewMode('create')}>Create an Account</button>
                                 <button type="submit" onClick={() => setViewMode('forgot')}>Forgot the password</button>
 
